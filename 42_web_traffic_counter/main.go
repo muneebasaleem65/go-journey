@@ -41,6 +41,6 @@ func main() {
 
 	wg.Wait()
 
-	fmt.Println("--- All Background Operations Complete ---")
+	fmt.Println("--- All Background Operations Complete ----")
 	fmt.Printf("Total views for '/home': %d\n", tracker.views["/home"])
 }
